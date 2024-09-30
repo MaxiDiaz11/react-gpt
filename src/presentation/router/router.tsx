@@ -23,14 +23,14 @@ export const menuRoutes = [
   {
     to: "/pros-cons",
     icon: "fa-solid fa-code-compare",
-    title: "Pros & Cons",
+    title: "Pros y contras",
     description: "Comparar pros y contras",
     component: <ProsConsPage />,
   },
   {
     to: "/pros-cons-stream",
     icon: "fa-solid fa-water",
-    title: "Como stream",
+    title: "Pros y contras con stream",
     description: "Con stream de mensajes",
     component: <ProsConsStreamPage />,
   },
