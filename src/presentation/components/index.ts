@@ -1,3 +1,4 @@
+export { GptMessageAudio } from "./chat-bubbles/GptMessageAudio";
 export { GptOrtographyMessage } from "./chat-bubbles/GptOrtographyMessage";
 export { TextMessageBoxSelect } from "./chat-input-boxes/TextMessageBoxSelect";
 export { FileTextMessageBox } from "./chat-input-boxes/FileTextMessageBox";

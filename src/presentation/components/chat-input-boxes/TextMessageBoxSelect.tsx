@@ -27,9 +27,7 @@ export const TextMessageBoxSelect = ({
     if (message.trim().length === 0) return;
     if (selectedOption === "") return;
 
-    const newMessage = `Traduce: "${message}" al idioma ${selectedOption}`;
-
-    onSendMessage(newMessage, selectedOption);
+    onSendMessage(message, selectedOption);
     setMessage("");
   };
 

@@ -46,8 +46,10 @@ export const TranslatePage = () => {
       { text: texto, isGpt: false },
     ]);
 
+    const newMessage = `Traduce: "${texto}" al idioma ${selectedOption}`;
+
     const stream = translateTextUseCase(
-      texto,
+      newMessage,
       selectedOption,
       abortController.current.signal
     );
